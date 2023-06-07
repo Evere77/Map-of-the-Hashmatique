@@ -12,8 +12,8 @@ public class Hashmatique {
         System.out.println(userMap.get("Bones"));
 
         for(String key : userMap.keySet()) {
-            System.out.println(key);
-            System.out.println(userMap.get(key));
+            System.out.println("Track: " + key);
+            System.out.println("Lyrics: " + userMap.get(key));
         }
     }
 }
